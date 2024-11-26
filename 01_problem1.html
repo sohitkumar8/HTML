@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #e74c3c; /* Red background for header */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #f1c40f; /* Yellow on hover */
+}
+
+/* Main Content Area */
+main {
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main div {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #e74c3c; /* Red color for main heading */
+}
+
+p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+    word-wrap: break-word;
+    white-space: pre-wrap;  /* Preserves line breaks and spaces */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #e74c3c; /* Red footer */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header div {
+        margin-bottom: 1rem;
+    }
+
+    header a {
+        margin: 0.5rem 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>Zomato</div>
+        <div>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div>
+            Order food anytime, anywhere
+        </div>
+        <p>
+            Bakery near meBeverages near meBiryani near meBurger near meChinese near meCoffee near meDesserts near
+            meKebab near meMithai near meMomos near meMughlai near meNorth Indian near mePasta near mePizza near meRolls
+            near meSandwich near meShake near meSouth Indian near meStreet near meTea near me
+        </p>
+    </main>
+
+    <footer>
+        Copyright Zomato All right reserved
+    </footer>
+</body>
+
+</html>
